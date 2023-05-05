@@ -1,8 +1,9 @@
 <h1 align="center">GPTFlow</h1>
 
  <div align="center">
-<img width="302" border-radius="50%" alt="logo" src="https://user-images.githubusercontent.com/94935750/206518914-6c46c21d-1243-4935-8db8-b4e45dedfb22.png">
+<img width="700" border-radius="50%" alt="logo" src="https://user-images.githubusercontent.com/94935750/236377506-6cb8a6c0-68cb-4ad6-b31b-fbf29af8a04d.png">
 </div>
+
 
 ## Project Description
 
@@ -25,4 +26,4 @@ Your app is ready to be deployed!
 ##
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Type Script](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
