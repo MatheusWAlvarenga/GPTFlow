@@ -7,7 +7,7 @@
 
 ## Project Description
 
-<p align="start">Front-end created to exemplify the integration with ChatGPT for creating high quality chatbots, making it possible to provide an interactive and personalized experience for users.</p>
+<p align="start">Project created to exemplify the integration with ChatGPT for the creation of high quality chatbots, providing an interactive and personalized experience to users.</p>
 
 ## Before starting
 
