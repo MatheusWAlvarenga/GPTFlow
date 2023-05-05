@@ -9,6 +9,11 @@
 
 <p align="start">Front-end created to exemplify the integration with ChatGPT for creating high quality chatbots, making it possible to provide an interactive and personalized experience for users.</p>
 
+## Before starting
+
+Insert the apiKey in the `src/App.tsx` file.
+
+
 ## Available Scripts
 
 In the project directory, you can run:
