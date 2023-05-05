@@ -2,7 +2,7 @@ import { ChangeEvent, useEffect, useRef, useState } from "react";
 import styles from "./App.module.css";
 
 const aPIKeyTest: string =
-  "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";
+  "";
 
 function App() {
   const [question, setQuestion] = useState<string>("");
