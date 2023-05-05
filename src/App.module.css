@@ -12,7 +12,7 @@
   gap: 2vh;
 }
 
-.App-field-view {
+.AppFieldView {
   display: flex;
   resize: none;
   border: solid 1px #4479ff;
@@ -28,17 +28,17 @@
   overflow: scrol-y;
 }
 
-.App-field {
+.AppField {
   display: flex;
   flex-direction: column;
   height: 50%;
   width: 70%;
 }
 
-.App-field-view:overflow {
+.AppFieldView:overflow {
   border: solid 1px #1b4af5;
 }
-.App-field-view:scroll {
+.AppFieldView:scroll {
   border: solid 1px red;
 }
 
@@ -94,7 +94,7 @@ button:hover {
   align-content: center;
   gap: 4px;
 }
-.Title-1 {
+.Title1 {
   display: flex;
   justify-content: center;
   font-family: Roboto, sans-serif;
@@ -102,7 +102,7 @@ button:hover {
   font-weight: 700;
   color: #141d57;
 }
-.Title-2 {
+.Title2 {
   display: flex;
   justify-content: center;
   font-family: Roboto, sans-serif;
@@ -124,11 +124,11 @@ button:hover {
 .CleanChat:hover {
 }
 
-.CleanChat-button {
+.CleanChatButton {
   color: #172db6;
 }
 
-.CleanChat-button:hover {
+.CleanChatButton:hover {
   color: #141d57;
   transform: translate(0px, 0px);
 }

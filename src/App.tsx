@@ -1,5 +1,5 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react";
-import "./App.css";
+import styles from "./App.module.css";
 
 const aPIKeyTest: string =
   "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";
@@ -73,15 +73,15 @@ function App() {
   });
 
   return (
-    <div className="App">
-      <div className="Title">
-        <span className="Title-1">GPTFlow</span>
-        <span className="Title-2">ChatGPT Integration Simulator</span>
+    <div className={styles.App}>
+      <div className={styles.Title}>
+        <span className={styles.Title1}>GPTFlow</span>
+        <span className={styles.Title2}>ChatGPT Integration Simulator</span>
       </div>
 
       <textarea
         ref={textArea}
-        className="App-field-view"
+        className={styles.AppFieldView}
         id="QuestionBody"
         name="input2"
         value={chat}
@@ -89,11 +89,11 @@ function App() {
       ></textarea>
 
       {chat !== "" ? (
-        <div className="CleanChat">
+        <div className={styles.CleanChat}>
           <button
             type="button"
             onClick={cleanChat}
-            className="CleanChat-button"
+            className={styles.CleanChatButton}
           >
             Clear
           </button>

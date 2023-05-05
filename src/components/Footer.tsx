@@ -1,10 +1,11 @@
 import React from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 
 function Footer() {
   return (
-    <div className="Footer">
+    <div>
       <a
+        className={styles.Footer}
         href="https://www.instagram.com/mwbr.tecnologia/"
         target="_blank"
         rel="noreferrer"

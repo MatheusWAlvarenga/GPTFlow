@@ -1,18 +1,18 @@
 import React from "react";
-import "./styles.css";
+import styles from "./styles.module.css";
 import logo from "../logo.svg";
 
 function Header() {
   return (
-    <div className="Header">
-      <div className="Header-background-logo"></div>
-      <div className="Header-background2-logo"></div>
-      <img src={logo} className="Header-logo" alt="logo" />
+    <div className={styles.Header}>
+      <div className={styles.HeaderBackgroundLogo}></div>
+      <div className={styles.HeaderBackground2Logo}></div>
+      <img src={logo} className={styles.HeaderLogo} alt="logo" />
       <div></div>
 
-      <div className="Header-name">
-        <span className="Header-name-1">MWBR</span>
-        <span className="Header-name-2">Technology</span>
+      <div className={styles.HeaderName}>
+        <span className={styles.HeaderName1}>MWBR</span>
+        <span className={styles.HeaderName2}>Technology</span>
       </div>
     </div>
   );

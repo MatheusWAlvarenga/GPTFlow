@@ -1,4 +1,4 @@
-.Header-background-logo {
+.HeaderBackgroundLogo {
   display: flex;
   left: 33px;
   top: 15px;
@@ -22,7 +22,7 @@
     #bcd5ff
   );
 }
-.Header-background2-logo {
+.HeaderBackground2Logo {
   display: flex;
   left: 34px;
   top: 16px;
@@ -38,7 +38,7 @@
   background-color: #1436e1;
 }
 
-.Header-logo {
+.HeaderLogo {
   display: flex;
   position: absolute;
   left: 36px;
@@ -48,8 +48,8 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .Header-background-logo {
-    animation: Header-background-logo-spin infinite 1s linear;
+  .HeaderBackgroundLogo {
+    animation: HeaderBackgroundLogo-spin infinite 1s linear;
   }
 }
 
@@ -71,17 +71,17 @@
   color: white;
 }
 
-.Header-name {
+.HeaderName {
   display: flex;
   flex-direction: column;
 }
 
-.Header-name-1 {
+.HeaderName1 {
   display: flex;
   font-size: calc(5px + 1vmin);
   font-weight: 600;
 }
-.Header-name-2 {
+.HeaderName2 {
   display: flex;
   font-size: calc(3px + 1vmin);
   margin-left: 5px;
@@ -114,64 +114,4 @@ a {
 
 a:hover {
   border-bottom: solid 1px white;
-}
-
-.lds-ellipsis {
-  display: flex;
-  position: absolute;
-  justify-content: center;
-  align-content: center;
-  height: 50vh;
-  width: 100vh;
-}
-.lds-ellipsis div {
-  position: relative;
-  top: 50%;
-  left: 50%;
-  width: 12px;
-  height: 12px;
-
-  border-radius: 50%;
-  background: #8ebaff;
-  animation-timing-function: cubic-bezier(0, 1, 1, 0);
-}
-.lds-ellipsis div:nth-child(1) {
-  left: 8px;
-  animation: lds-ellipsis1 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(2) {
-  left: 8px;
-  animation: lds-ellipsis2 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(3) {
-  left: 32px;
-  animation: lds-ellipsis2 0.6s infinite;
-}
-.lds-ellipsis div:nth-child(4) {
-  left: 56px;
-  animation: lds-ellipsis3 0.6s infinite;
-}
-@keyframes lds-ellipsis1 {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
-@keyframes lds-ellipsis3 {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
-  }
-}
-@keyframes lds-ellipsis2 {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(24px, 0);
-  }
 }
