@@ -1,38 +1,134 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #eef4ff;
+  height: calc(100vh - 16vh);
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  padding: 16px;
   font-size: calc(10px + 2vmin);
+  color: black;
+  gap: 2vh;
+}
+
+.App-field-view {
+  display: flex;
+  resize: none;
+  border: solid 1px #4479ff;
+  border-radius: 6px;
+  padding: 16px;
+  box-shadow: 2px 2px 8px #bcd5ff;
+  height: 50%;
+  width: 70%;
+  background: #172db6;
   color: white;
+  font-size: 18px;
+  font: sans-serif;
+  overflow: scrol-y;
 }
 
-.App-link {
-  color: #61dafb;
+.App-field {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 70%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-field-view:overflow {
+  border: solid 1px #1b4af5;
+}
+.App-field-view:scroll {
+  border: solid 1px red;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border: 1px solid #d9e6ff;
+  border-radius: 6px;
+  padding: 1px 5px 1px 1px;
+  background-color: white;
+  margin-top: 8px;
+}
+
+input[type="text"],
+select {
+  flex-grow: 2;
+  width: 100vh;
+  padding: 12px 20px;
+  border: none;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+}
+
+form:focus-within {
+  outline: 1px solid #4479ff;
+}
+
+button {
+  display: flex;
+  margin-top: 3px;
+  padding: 4px 8px;
+  border: none;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  height: 32px;
+}
+button:hover {
+  transform: translate(3px, -1px);
+}
+
+.Title {
+  display: flex;
+  min-width: 50%;
+  margin: 28px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+}
+.Title-1 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #141d57;
+}
+.Title-2 {
+  display: flex;
+  justify-content: center;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  color: #141d57;
+}
+
+.CleanChat {
+  display: flex;
+  margin: -16px 0 -16px 0;
+  gap: 4px;
+  align-items: center;
+  justify-content: end;
+  width: 60%;
+  padding: 2px;
+  font-size: 12px;
+}
+
+.CleanChat:hover {
+}
+
+.CleanChat-button {
+  color: #172db6;
+}
+
+.CleanChat-button:hover {
+  color: #141d57;
+  transform: translate(0px, 0px);
 }
