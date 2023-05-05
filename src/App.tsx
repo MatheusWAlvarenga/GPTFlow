@@ -1,6 +1,5 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 import "./App.css";
-import wait from "waait";
 
 const aPIKeyTest: string =
   "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";
