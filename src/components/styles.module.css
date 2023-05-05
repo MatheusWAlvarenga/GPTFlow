@@ -87,7 +87,7 @@
   margin-left: 5px;
 }
 
-@keyframes Header-background-logo-spin {
+@keyframes HeaderBackgroundLogo-spin {
   from {
     transform: rotate(0deg);
   }
@@ -100,7 +100,7 @@
   height: 4vh;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
   padding: 2px 16px;
   background: #eef4ff;
   font-size: calc(10px + 2vmin);

@@ -2,7 +2,7 @@ import { ChangeEvent, useEffect, useRef, useState } from "react";
 import styles from "./App.module.css";
 
 const aPIKeyTest: string =
-  "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";
+  "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";
 
 function App() {
   const [question, setQuestion] = useState<string>("");
@@ -46,7 +46,7 @@ function App() {
           text = `ChatGPT: ${json.choices[0].text.toString() || "No answer."}`;
       })
       .catch((error: any) => {
-        text = `ChatGPT: ${error.data.statusError || "Error during request."}`;
+        text = `ChatGPT: ${error.data || "Error during request."}`;
       });
 
     setChat(
@@ -89,11 +89,11 @@ function App() {
       ></textarea>
 
       {chat !== "" ? (
-        <div className={styles.CleanChat}>
+        <div className={styles.ClearChat}>
           <button
             type="button"
             onClick={cleanChat}
-            className={styles.CleanChatButton}
+            className={styles.ClearChatButton}
           >
             Clear
           </button>
@@ -101,8 +101,9 @@ function App() {
       ) : (
         ""
       )}
-      <form onSubmit={handleSubmit}>
+      <form className={styles.InputForm} onSubmit={handleSubmit}>
         <input
+          className={styles.InputField}
           type="text"
           id="input"
           name="input"
@@ -112,7 +113,7 @@ function App() {
           required
           disabled={loading}
         />
-        <button type="submit">
+        <button className={styles.InputButton} type="submit">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="22"
