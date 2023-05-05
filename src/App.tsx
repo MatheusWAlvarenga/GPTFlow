@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useRef, useState } from "react";
 import styles from "./App.module.css";
 
-const aPIKeyTest: string =
+const apiKeyTest: string =
   "";
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
       headers: {
         Accept: "application/json",
         "Content-Type": "application/json",
-        Authorization: "Bearer " + aPIKeyTest,
+        Authorization: "Bearer " + apiKeyTest,
       },
       body: JSON.stringify({
         model: "text-davinci-003",
