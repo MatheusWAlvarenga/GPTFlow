@@ -30,5 +30,5 @@ Your app is ready to be deployed!
 
 ##
 
-![React.JS](https://img.shields.io/badge/ReactJS-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![React.JS](https://img.shields.io/badge/React.JS-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 
